@@ -1,6 +1,17 @@
 # docker4kaggle
 Dockerfiles for DeepLearningVM @ GCP
 
+
+## Detail
+This Docker file is for GCP DeepLearning VM.
+I tested on the VM such as ...
+
+```text
+version :M21
+OS      :Debian 9
+CUDA    :CUDA10.0
+```
+
 ## How to use
 
 ```bash
