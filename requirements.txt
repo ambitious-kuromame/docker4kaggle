@@ -9,7 +9,7 @@ scipy==1.1.0
 numpy==1.15.2
 pandas==0.23.4
 gensim==3.6.0
-kaggle==1.4.7.1
+tensorflow-gpu==1.13.1
 keras==2.2.4
 kaggle==1.5.3
 lightgbm==2.2.3

@@ -5,6 +5,9 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-reco
     sudo git wget cmake nano vim gcc g++ build-essential ca-certificates software-properties-common \
     && rm -rf /var/lib/apt/lists/*
 
+# install tmux
+RUN apt-get install -y tmux
+
 # install python
 RUN add-apt-repository ppa:deadsnakes/ppa \
 && apt-get update \
