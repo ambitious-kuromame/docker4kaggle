@@ -13,3 +13,4 @@ tensorflow-gpu==1.13.1
 keras==2.2.4
 kaggle==1.5.3
 lightgbm==2.2.3
+imbalanced-learn==0.4.3
